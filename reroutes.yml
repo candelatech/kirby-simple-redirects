@@ -1,0 +1,25 @@
+title: Reroutes
+icon: road-sign
+
+status:
+  draft: true
+  listed: false
+
+options:
+  url: false
+  changeStatus: false
+  delete: false
+
+fields:
+  reds:
+    type: structure
+    label: URLs to Redirect
+    fields:
+      source_url:
+        type: text
+        label: Source URL
+        required: true
+      dest_url:
+        type: text
+        label: Destination URL
+        required: true
